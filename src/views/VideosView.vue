@@ -1,40 +1,36 @@
-<script setup>
-
-
-</script>
-
+<script setup></script>
 
 <template>
 
   <h1>
 
-    Sobre
+    Videos
 
   </h1>
 
     <button @click="$router.push({name:'home'})" >
 
-    Inicio
+        Inicio
+
+    </button>
+
+    <button @click="$router.push({name:'about'})" >
+
+      Sobre
 
     </button>
 
     <button @click="$router.push({name:'games'})" >
 
-    Games
-
-    </button>
-
-    <button @click="$router.push({name:'videos'})" >
-
-      Videos
+        Games
 
     </button>
 
 </template>
 
-<style>
+<style scoped>
 
-button {
+  button {
     margin: 10px;
   }
 

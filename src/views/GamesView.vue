@@ -4,9 +4,15 @@
 
   <h1>
 
-    Home
+    Games
 
   </h1>
+
+  <button @click="$router.push({name:'home'})" >
+
+      Inicio
+
+  </button>
 
     <button @click="$router.push({name:'about'})" >
 
@@ -14,15 +20,10 @@
 
     </button>
 
-    <button @click="$router.push({name:'games'})" >
-
-      Games
-
-    </button>
 
     <button @click="$router.push({name:'videos'})" >
 
-      Videos
+        Videos
 
     </button>
 
